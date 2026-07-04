@@ -1,0 +1,8 @@
+# Core -- required for MARKET/LIMIT/STOP_LIMIT orders via the CLI
+python-binance>=1.0.29
+python-dotenv>=1.0.1
+requests>=2.31.0   # imported directly in bot/client.py to catch network-level failures
+ 
+# Bonus -- enhanced CLI UX (cli_rich.py): guided prompts, tables, color output
+typer>=0.12.0
+rich>=13.7.0
